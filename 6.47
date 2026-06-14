@@ -1,0 +1,10 @@
+n = input("введите натуральное число с разными цифрами")
+max_digit = max(n)
+min_digit = min(n)
+index_max = n.index(max_digit)
+index_min = n.index(min_digit)
+left_digit_position = min(index_max, index_min)
+if left_digit_position == index_max:
+    print("максимальная цифра расположена левее минимальной")
+else:
+    print("минимальная цифра расположена левее максимальной")
