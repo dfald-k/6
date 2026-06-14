@@ -1,0 +1,10 @@
+a = int(input("введите a (a > b): "))
+b = int(input("введите b: "))
+quotient = 0
+temp_a = a
+while temp_a >= b:
+    temp_a -= b
+    quotient += 1
+remainder = temp_a
+print(f"результат целочисленного деления: {quotient}")
+print(f"остаток от деления: {remainder}")
