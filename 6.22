@@ -1,0 +1,4 @@
+n = int(input("введите натуральное число n (n > 99): "))
+str_n = str(n)
+third_digit = str_n[2]
+print(f"третья цифра {third_digit}")
