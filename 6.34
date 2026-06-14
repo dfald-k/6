@@ -1,0 +1,8 @@
+m = int(input("Введите m: "))
+n = int(input("Введите n: "))
+max_num = m * n
+multiples_m = list(range(m, max_num + 1, m))
+multiples_n = list(range(n, max_num + 1, n))
+result = sorted(set(multiples_m + multiples_n))
+for num in result:
+    print(num)
