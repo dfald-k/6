@@ -1,0 +1,5 @@
+n = input("введите натуральное число: ")
+first_digit = n[0]
+count = n.count(first_digit)
+print(f"первая цифра: {first_digit}")
+print(f"встречается {count} раз")
