@@ -1,0 +1,11 @@
+number = input("число: ")
+a = input("введите цифру a: ")
+b = input("введите цифру b: ")
+count_a = number.count(a)
+count_b = number.count(b)
+if count_a < count_b:
+    print(f"цифра {a} встречается реже {b}.")
+elif count_a > count_b:
+    print(f"цифра {a} встречается чаще {b}.")
+else:
+    print(f"цифры {a} и {b} встречаются одинаково")
