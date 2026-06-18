@@ -1,0 +1,9 @@
+number = input("натуральное число: ")
+count_0 = number.count('0')
+count_9 = number.count('9')
+if count_0 > count_9:
+    print("цифра 0 чаще")
+elif count_9 > count_0:
+    print("цифра 9 чаще")
+else:
+    print("цифры 0 и 9 встречаются одинаковое количество раз")
